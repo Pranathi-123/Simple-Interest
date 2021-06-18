@@ -1,0 +1,7 @@
+#Program to find the simple interest
+P = int(input("Enter the principle amount:"))
+N = float(input("Enter number of years:"))
+R = float(input("Enter a rate:"))
+SI = (P*N*R)/100
+
+print("Simple Interest is ",SI)
